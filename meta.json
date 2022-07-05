@@ -1,15 +1,15 @@
 {
-    "courseId": "course-starter-r",
-    "title": "My cool online course",
+    "courseId": "secr-in-r",
+    "title": "Spatial capture-recapture models in R",
     "slogan": "A free online course",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec velit nec, consectetur placerat enim.",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna.",
+    "description": "This is a free, open source course on fitting, visualizing, understanding, and predicting from spatial(ly explicit) capture-recapture models. The idea is to use the material in this course either as part of a facilitated workshoo, or in independent study. Funded by an EPSRC grant.",
+    "bio": "I'm Ian Durbach, a xyz.",
     "siteUrl": "https://course-starter-r.netlify.com",
-    "twitter": "spacy_io",
+    "twitter": "indurbach",
     "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
     "testTemplate": "success <- function(text) {\n    cat(paste(\"\\033[32m\", text, \"\\033[0m\", sep = \"\"))\n}\n\n.solution <- \"${solutionEscaped}\"\n\n${solution}\n\n${test}\ntryCatch({\n    test()\n}, error = function(e) {\n    cat(paste(\"\\033[31m\", e[1], \"\\033[0m\", sep = \"\"))\n})",
     "juniper": {
-        "repo": "ines/course-starter-r",
+        "repo": "iandurbach/secr-course",
         "branch": "binder",
         "lang": "r",
         "kernelType": "ir",
@@ -17,9 +17,9 @@
     },
     "showProfileImage": true,
     "footerLinks": [
-        { "text": "Website", "url": "https://spacy.io" },
-        { "text": "Source", "url": "https://github.com/ines/course-starter-r" },
-        { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-r" }
+        { "text": "Follow Me on Twitter", "url": "https://twitter.com/indurbach" },
+        { "text": "Source Code on GitHub", "url": "https://github.com/iandurbach/secr-course" },
+        { "text": "Built with ♥ and Open Source", "url": "https://github.com/ines/course-starter-r" }
     ],
-    "theme": "#de7878"
+    "theme": "#ec625D"
 }
