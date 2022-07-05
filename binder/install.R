@@ -1,1 +1,1 @@
-install.packages("readr")
+install.packages("secr")
