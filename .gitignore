@@ -69,3 +69,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+.Rproj.user
+
+# ignore data files used for local build
+no-commit/
