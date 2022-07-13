@@ -1,7 +1,7 @@
 library(secr)
 
 # load saved objects 'traps', 'ch', and 'mask'
-load("kruger_data.RData")
+load("data/kruger_data.RData")
 
 # view model inputs: mask, capthist, traps
 plot(mask) # this is plot.mask

@@ -1,7 +1,7 @@
 library(secr)
 
 # read in mask with covariates already added
-kruger.mask <- read.mask(file = "kruger_mask.txt", header = TRUE, stringsAsFactors = TRUE)
+kruger.mask <- read.mask(file = "data/kruger_mask.txt", header = TRUE, stringsAsFactors = TRUE)
 
 # check its a mask
 class(kruger.mask)

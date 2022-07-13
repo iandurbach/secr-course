@@ -1,6 +1,6 @@
 library(secr)
 
-traps <- read.traps(file = "____", 
+traps <- read.traps(file = "data/____", 
                     detector = "count",
                     trapID = "____")
 

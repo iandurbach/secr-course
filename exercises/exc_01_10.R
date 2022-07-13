@@ -1,7 +1,7 @@
 library(secr)
 
 # read in data frame from mask text file
-kruger.mask_df <- read.table(file = "kruger_mask.txt", header = TRUE, stringsAsFactors = TRUE)
+kruger.mask_df <- read.table(file = "data/kruger_mask.txt", header = TRUE, stringsAsFactors = TRUE)
 
 # make a data frame with just the x and y coords
 kruger.mask_xy <- data.frame(x = kruger.mask_df$x, y = kruger.mask_df$y)
@@ -16,10 +16,10 @@ names(covariates(kruger.mask))
 ____ <- ____
 
 # add landscape covariate from spatial data source
-landscape <- readRDS(file = "landscape.Rds")
+landscape <- readRDS(file = "data/landscape.Rds")
 ____ <- addCovariates(____, ____)
 
-# add all water covariates from spatial data source "watervariables.shp"
+# add all water covariates from spatial data source "data/watervariables.shp"
 ____ <- addCovariates(____, ____)
 
 # make a histogram summarizing the distance to water at mask points

@@ -3,7 +3,7 @@ library(secr)
 set.seed(567)
 
 # read in locations csv
-traps_df <- read.csv(file = "kruger_traps_xy.csv", header = TRUE)
+traps_df <- read.csv(file = "data/kruger_traps_xy.csv", header = TRUE)
 
 # make traps object from data frame
 traps <- read.traps(data = traps_df, 

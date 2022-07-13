@@ -1,7 +1,7 @@
 library(secr)
 
 # read in a RDS file containing the capthist we made before
-ch <- readRDS(file = "kruger-ch.Rds")
+ch <- readRDS(file = "data/kruger-ch.Rds")
 
 # quick and dirty estimate of sigma, making a mask on the fly
 qnd <- autoini(capthist = ch, mask = make.mask(traps = traps(ch), buffer = 10000, spacing = 1500))

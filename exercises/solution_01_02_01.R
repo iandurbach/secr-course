@@ -1,6 +1,6 @@
 library(secr)
 
-traps <- read.traps(file = "kruger_traps_xy.txt", 
+traps <- read.traps(file = "data/kruger_traps_xy.txt", 
                     detector = "count",
                     trapID = "Detector")
 

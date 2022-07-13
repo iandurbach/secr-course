@@ -1,7 +1,7 @@
 library(secr)
 
 # read in locations csv
-traps_df <- read.csv(file = "kruger_traps_xy.csv", header = TRUE)
+traps_df <- read.csv(file = "data/kruger_traps_xy.csv", header = TRUE)
 
 # check what class this is
 class(traps_df)

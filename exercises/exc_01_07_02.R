@@ -1,7 +1,7 @@
 library(secr)
 
 # read in data frame from mask text file (NOT secr at this stage)
-kruger.mask_df <- read.table(file = "kruger_mask.txt", header = TRUE, stringsAsFactors = TRUE)
+kruger.mask_df <- read.table(file = "data/kruger_mask.txt", header = TRUE, stringsAsFactors = TRUE)
 
 # confirm its a dataframe
 class(kruger.mask_df)
