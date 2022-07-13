@@ -72,4 +72,5 @@ yarn-error.log
 .Rproj.user
 
 # ignore data files used for local build
+binder/data/
 no-commit/
