@@ -1,1 +1,2 @@
-install.packages("readr")
+install.packages("codetools")
+install.packages("secr")
