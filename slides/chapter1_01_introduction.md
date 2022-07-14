@@ -80,6 +80,20 @@ Notes: Mask data (also often called a mesh, state space, or integration space) t
 
 ---
 
+# Kruger leopards
+
+<p align="center">
+<img src="krugerpopulation.jpg" alt="This image is in /static" width="60%">
+</p>
+
+Notes: We'll use a running example throughout this course to demonstrate how to fit and interpret SCR models. The data comes from a camera trap survey of leopards in the Kruger National Park, obtained by Maputla (2014) as part of his PhD thesis. We will not use the actual data, but rather a simulated single-survey dataset based on a fit to the real data. The simulated data contain the same features as the real data but we also know what the true population is (because we created it), and this is useful for illustration.
+
+The full dataset is from camera traps that span the whole Kruger National Park, but we are going to focus on only the data from the southwest corner for the moment. The location of the camera traps that we use, and the simulated population, are shown on the slide.
+
+There are 62 detectors, on which 31 individual leopards were detected. The survey involved a single capture occasion.
+
+---
+
 # R package **secr** 
 
 Model fitting:
